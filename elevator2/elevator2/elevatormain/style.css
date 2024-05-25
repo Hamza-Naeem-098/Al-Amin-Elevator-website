@@ -1,0 +1,649 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* .head{
+    display: flex;
+    list-style: none;
+
+} */
+/* General Styles */
+  
+  /* Header Styles */
+  .header {
+    background-color: #ffc107;
+  }
+  
+  .header .nav-link {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    
+  }
+  
+  .header .nav-link i {
+    margin-right: 8px;
+  }
+  
+  .header .list-inline-item {
+    margin-right: 10px;
+  }
+  
+  .header .list-inline-item:last-child {
+    margin-right: 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .header .nav-link {
+      display: block;
+    }
+    .header .list-inline-item {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .dropdown-menu {
+    background-color: #333; /* Change background color */
+    
+  }
+  .dropdown-menu .dropdown-item {
+    color: #fff; /* Change text color */
+  }
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #555; /* Change hover background color */
+    color: #fff; /* Change hover text color */
+  }
+
+.nav-1:hover{
+   
+   text-decoration-line: underline;
+  text-decoration-color: yellow;
+ text-decoration-style: solid;
+text-decoration-thickness: 5px;
+text-transform: uppercase;
+
+ }
+
+
+.color{
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 400;
+ 
+}
+
+.aboutcompanyhead2{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.companyabouttext li{
+    color: grey;
+    font-size: 17px;
+    font-weight:600 ; 
+}
+footer{
+    background-color: #151515;
+    color: white 
+ 
+}
+footer li{
+    list-style: none;
+}
+.aboutbtn{
+    text-align: center;
+} 
+.last{
+    background-color: black;
+    height: 80px;
+    padding-top: 30px;
+}
+.footertext{
+    padding-top: 150px;
+
+    
+}
+.footerchange{
+    padding-right: 170px;
+}
+.footertext h2{
+    color: white;
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.install{
+    padding-top: 50px;
+}
+.ourservicesbg{
+    background-image: url("ourservicesbg3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.servicesbutton{
+    text-align: center;
+}
+.servicesp{
+    line-height: 33px;
+    color: darkgray;
+    font-size: 17px;
+}
+.sevicesh{
+    font-weight: bold;
+    
+}
+.stairsbg{
+    background-image: url("stairbg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.stairshead{
+    text-align: center;
+    color: white;
+    padding-top: 140px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.stairtext p{
+    color: grey;
+    font-size: 17px;
+    font-weight:600 ; 
+}
+.stairliftbg2{
+    background-image: url("stair4bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+    width: 100%;
+    color: white;
+    padding-top: 300px;
+   
+}
+.stairhead2{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.stairtext2{
+    padding-top: 50px;
+}
+.image-wrap{
+    row-gap: 20px;
+  }
+
+  .panoramicbg{
+    background-image: url("panoramicbg4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+
+}
+.panoramichead{
+    text-align: center;
+    color: white;
+    padding-top: 140px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.panoramichead2{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+
+}
+.panoramictext p{
+    color: grey;
+    font-size: 17px;
+    font-weight:600 ; 
+}
+  
+.panoramiclast{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.image-wrap{
+    row-gap: 20px;
+  }
+.elevator {
+    width: 100%;
+    height: 70vh; 
+    background: linear-gradient(to bottom, #3498db, #2980b9); 
+    position: relative;
+    perspective: 1200px; 
+ }
+  
+.glass-panel {
+    width: 80%; 
+    height: 60%; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(45deg); 
+    transform-style: preserve-3d;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .cabin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-style: preserve-3d;
+  }
+  
+  .small {
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -50%) rotateY(45deg) translateZ(100px);
+  }
+  
+  .medium {
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%) rotateY(45deg) translateZ(150px);
+  }
+  
+  .large {
+    width: 160px;
+    height: 160px;
+    transform: translate(-50%, -50%) rotateY(45deg) translateZ(200px);
+  }
+  
+  .table {
+    width: 100%;
+    height: 100%;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .table-info {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .table-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+.contactbg{
+    background-image: url("contact..bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;    
+}
+.contacthead{
+    padding-top: 100px;
+    
+   
+}
+
+
+.contact{
+
+    color: grey;
+    font-size: 20px;
+}
+.contact li{
+    padding: 20px;
+    list-style: none;
+   
+}
+.contact li i{
+    padding: 10px;
+
+}
+.contactsecond{
+    color: grey;
+    padding-top: 70px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+   text-decoration-thickness: 5px;
+   color: darkgray;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="location"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactbut {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contactbut:hover {
+    background-color: #0056b3;
+} 
+
+#response {
+    margin-top: 20px;
+    text-align: center;
+}
+.escalatorbg{
+    background-image: url("Escalatorbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.escalatorhead{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.escalatehead2{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.escalatortext p{
+    color: grey;
+    font-size: 17px;
+    font-weight: 600;
+}
+.escalatorlast{
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.image-wrap{
+  row-gap: 20px;
+}
+.homeliftbg{
+    background-image: url("homeliftbg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.homehead{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.hometext p{
+    color: grey;
+    font-size: 17px;
+    font-weight:600 ; 
+}
+.homehead2{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.homeliftbg2{
+    background-image: url("homeliftbg4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+ 
+    color: white;
+}
+.homehead3{
+    color: white;
+    font-size: 17px;
+    font-weight:300 ; 
+}
+.image-wrap{
+    row-gap: 20px;
+   
+  }
+  .cargobg{
+    width: 100%;   
+    background: url("cargo..bg.jpg");
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,176,205,1) 90%, rgba(0,212,255,1) 100%); */
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.cargobg2{
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,176,205,1) 90%, rgba(0,212,255,1) 100%); 
+ width: 100%;   
+
+}
+.cargohead{
+    text-align: center;
+    color: white;
+    padding-top: 140px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.cargotext p{
+    color: grey;
+    font-size: 17px;
+    font-weight:600 ; 
+}
+.cargohead2{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.passengerbg{
+    background-image: url("cargo....bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.passengerhead{
+   
+    color: black;
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.passengertext p{
+    color: grey;
+    font-size: 17px;
+    font-weight:600 ; 
+}
+.passengertext2 p{
+    color: black;
+    font-size: 17px;
+    font-weight:400; 
+
+}
+.passengerbg2{
+    background-image: url("aboutus3.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+}
+.passengerhead2{
+    text-align: center;
+    color: white;
+    padding-top: 140px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.aboutbg{
+    background-image: url("about..bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.aboutstyle{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+   text-decoration-thickness: 5px;
+   color: darkgray;
+}
+.about{
+    color: grey;
+    font-size: 20px;
+    padding-top: 120px;
+}
+.aboutcompanyhead2{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.companyabouttext li{
+    color: grey;
+    font-size: 20px;
+    
+}
+.ourproductbg{
+    background-image: url("ourproductbg1.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+}
+.ourproducthead{
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.ourproduct{
+    padding-left: 570px;
+  
+}
+.ourproductpad{
+    padding-top: 30px;
+}
+#counter .counter {
+    margin: 20px 0;
+
+  }
+  
+  #counter .count-title {
+    font-size: 3rem;
+    margin-top: 10px;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+  }
+  
+  #counter .count-text {
+    font-size: 1.2rem;
+    color: black;
+
+  }
+  .countpad{
+    padding-left: 100px;
+  }
+ /* Custom button styles */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  /* Primary button style */
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Danger button style */
+  .btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  img {
+    animation: slideIn 1s ease-in-out;
+  }
+
+  .btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  .btn-warning {
+    background-color: #ffc107; /* Adjust background color */
+    color: #000; /* Adjust text color */
+    border-color: #ffc107; /* Adjust border color */
+  }
+  .btn-warning:hover {
+    background-color: #e0a800; /* Adjust hover background color */
+    color: #fff; /* Adjust hover text color */
+  }
